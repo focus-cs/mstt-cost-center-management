@@ -256,7 +256,6 @@ public class CostCenterManager {
 		if (orga.getIntField(Constants.PARENT) == 0 || orga.getIntField(Constants.RC_CHECK) == 0) {
 			return true;
 		}
-
 		return false;
 	}
 

@@ -47,6 +47,7 @@ public class Runner {
 				LOG.debug(Constants.PROP_API + " properties file loaded");
 
 				try {
+                                    
 					// init session
 					LOG.debug("Connecting to PSNext");
 					final Session session = new Session(properties_ps.getProperty(Constants.PSNEXT_URL));
